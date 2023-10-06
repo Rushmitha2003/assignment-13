@@ -1,0 +1,83 @@
+
+.body {
+  background-color: black;
+  padding:0px 30px;
+}
+.h1 {
+  background-color:rgb(74, 74, 248);
+  color: white;
+  width: 100%;
+  border:2px solid white;
+  border-radius:8px;
+}
+.container1 {
+  height: 100%;
+  width: 100%;
+  color: rgb(1, 1, 1);
+  background-color:rgb(252, 108, 56);
+  border:2px solid white;
+  border-radius:8px;
+  margin-top:-20px;
+  margin-bottom:80px;
+}
+.img1 {
+  height:550px;
+  width: 900px;
+  margin: 25px;
+  border-radius: 9px;
+  object-fit:fill;
+}
+.btn {
+  width: 90%;
+  height: 45px;
+  background-color: black;
+  font-size: 28px;
+  color: whit33e;
+  border-radius: 9px;
+}
+.btn:hover {
+  box-shadow: -5px -3px 10px #ffffff, 5px 3px 10px #ffffff;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  place-items: center;
+  margin: 80px;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  color: white;
+}
+.card-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid black;
+  box-shadow:5px 3px 10px #ffffff;
+}
+.types {
+  height:400px;
+  width: 300px;
+  padding-top: 20px;
+  text-align: center;
+  background-color:rgb(3,3,99);
+  border-radius: 10px;
+}
+.bottom {
+  text-align: 40px;
+}
+.order {
+  border: none;
+  background-color: purple;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 4px;
+  font-size:20px;
+}
+.headings{
+  color:white;
+display:inline-block;
+background-color: black;
+padding:0px 15px;
+}
